@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(173, 219, 224);
+    background: rgb(241, 243, 243);
     font-family: Arial, Helvetica, sans-serif;
 }
 #container{
@@ -12,7 +12,8 @@ body {
     width: 900px;
     margin: 0px auto;
     flex-wrap: wrap;
-    border: 1px solid gray;
+    border: 1px solid rgb(110, 107, 107);
+    background-color: lightgrey;
 }
 
 header{
@@ -43,22 +44,14 @@ section article h2{
     width: 100%;
 }
 
-.clearfix{
-    clear: both;
-}
-
 section article h3{ /*modifica Mis Servicios*/
     text-align: center;
 }
 section article h4{ /*modifica los servicios que se da*/
-    text-align: center;
+    justify-content: space-around;
 }
 section article p{ /*modifica el texto de los servicios que se da*/
-    text-align: center;
-}
-
-.clearfix{
-    clear: both;
+    justify-content: space-around;
 }
 
 #content{
@@ -88,6 +81,7 @@ article h3{ /*modifica los servicios que se da*/
     margin: 50px;
     border: 2px solid black;
 }
+
 
 #mensaje-box input{
     width: 500px !important;
