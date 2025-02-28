@@ -13,7 +13,7 @@ body {
     margin: 0px auto;
     flex-wrap: wrap;
     border: 1px solid rgb(110, 107, 107);
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 header{
@@ -38,6 +38,10 @@ nav ul li{
     line-height: 30%;
 }
 
+section{
+    text-align: center;
+}
+
 section article h2{
     text-align: center;
     height: 100px;
@@ -48,10 +52,10 @@ section article h3{ /*modifica Mis Servicios*/
     text-align: center;
 }
 section article h4{ /*modifica los servicios que se da*/
-    justify-content: space-around;
+    text-align: center;
 }
 section article p{ /*modifica el texto de los servicios que se da*/
-    justify-content: space-around;
+    text-align: center;
 }
 
 #content{
